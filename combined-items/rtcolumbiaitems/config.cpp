@@ -84,6 +84,7 @@ class CfgMagazines
 
 class CfgVehicles 
 {
+    class Land_InvisibleBarrier_F;
     class Thing;
     class colsog_thing_handsid_sensor : Thing  
     {
@@ -123,5 +124,10 @@ class CfgVehicles
         scopecurator = 2;
         author = "Gerard";
         destrType = "DestructNo";
+    };
+    class colsog_Land_InvisibleBarrier_F : Land_InvisibleBarrier_F
+    {
+        displayName = "Rope Compat InvisibleBarrier";
+        simulation = "car";
     };
 };
